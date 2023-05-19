@@ -369,13 +369,13 @@ position: relative;
     padding: 10px 10px 5px 10px;
     border-radius: 50%;
     display: inline-block;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     margin-right: 15px;
     transition: transform ease-in-out 0.1s;
 }
 
 .knowleges__item.highlight:before {
-    transform: rotate(90deg) translateY(-5px);
+    transform: translateY(-5px);
     transition: transform ease-in-out 0.1s;
 }
 
