@@ -10,7 +10,9 @@ body {
     --light-accent-color: #B6B3F6;
     --heading-color: #222;
     --paragraph-color: #222;
+    font-family: 'Poppins';
 }
+
 
 /* DARK THEME */
 
@@ -63,9 +65,13 @@ body.dark {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-weight: 400;
     background-color: var(--bg-color);
+}
+
+a, p {
+    font-family: 'Poppins';
 }
 
 * {
@@ -231,7 +237,7 @@ position: relative;
 }
 
 .projects__title {
-    margin: 0 auto 6rem auto;
+    margin-bottom: 40px;
 }
 
 .toggler-moon.active,
